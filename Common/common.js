@@ -8,7 +8,7 @@ const connect=()=>{
     })
 
     .then(()=>{
-        console.log("mongoose connect......");
+        console.log("mongoose connected......");
     })
     .catch((error)=>{
         console.log("mongoose connect:",error.message);
